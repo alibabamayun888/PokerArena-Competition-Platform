@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PokerArena 德州扑克 SNG 与 MTT 赛事平台</title>
+  <meta name="description" content="PokerArena 是采用 Unity3D、C++ 和 Java 构建的德州扑克赛事平台，支持 SNG、MTT、竞技排名赛、人脸认证及线上线下比赛门票联动。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://alibabamayun888.github.io/PokerArena-Competition-Platform/">
+  <link rel="alternate" hreflang="zh-CN" href="https://alibabamayun888.github.io/PokerArena-Competition-Platform/">
+  <link rel="alternate" hreflang="zh-TW" href="https://alibabamayun888.github.io/PokerArena-Competition-Platform/zh-TW/">
+  <link rel="alternate" hreflang="en" href="https://alibabamayun888.github.io/PokerArena-Competition-Platform/en/">
+  <link rel="alternate" hreflang="x-default" href="https://alibabamayun888.github.io/PokerArena-Competition-Platform/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PokerArena 德州扑克赛事平台">
+  <meta property="og:description" content="SNG、MTT、竞技排名赛、身份认证与线下比赛门票联动方案。">
+  <meta property="og:url" content="https://alibabamayun888.github.io/PokerArena-Competition-Platform/">
+  <meta property="og:image" content="https://alibabamayun888.github.io/PokerArena-Competition-Platform/Assets/Screenshots/dating.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "PokerArena Competition Platform",
+    "description": "Unity3D、C++ 与 Java 构建的德州扑克 SNG、MTT 和竞技赛事平台。",
+    "codeRepository": "https://github.com/alibabamayun888/PokerArena-Competition-Platform",
+    "programmingLanguage": ["C++", "C#", "Java"],
+    "inLanguage": "zh-CN"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="./">Poker<span>Arena</span></a>
+      <div class="nav-links">
+        <a href="#features">赛事功能</a>
+        <a href="#architecture">技术架构</a>
+        <a href="#screenshots">产品截图</a>
+        <a href="zh-TW/" lang="zh-TW">繁體</a>
+        <a href="en/" lang="en">English</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="shell hero-copy">
+        <div class="eyebrow">Texas Hold'em Tournament Platform</div>
+        <h1>PokerArena 德州扑克赛事平台</h1>
+        <p class="lead">覆盖 SNG、MTT、竞技排名赛、线上资格赛和线下比赛门票联动，采用 Unity3D 客户端、C++ 游戏服务器与 Java 管理后台。</p>
+        <div class="actions">
+          <a class="button primary" href="#screenshots">查看产品截图</a>
+          <a class="button" href="https://github.com/alibabamayun888/PokerArena-Competition-Platform">访问 GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="shell">
+        <div class="section-head">
+          <h2>德州扑克比赛与赛事运营</h2>
+          <p>从线上报名、实时牌桌到线下资格核销，连接完整的锦标赛生命周期。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><strong>MTT 多桌锦标赛</strong><h3>动态赛事调度</h3><p>支持盲注升级、淘汰、拆桌、并桌、座位平衡与决赛桌流程。</p></article>
+          <article class="feature"><strong>SNG 单桌快速赛</strong><h3>满员自动开赛</h3><p>可配置参赛人数、起始筹码、盲注速度和奖励名次。</p></article>
+          <article class="feature"><strong>竞技排名赛</strong><h3>积分与赛季</h3><p>管理周期排行榜、晋级条件和线上赛事资格。</p></article>
+          <article class="feature"><strong>身份认证</strong><h3>实名与人脸核验</h3><p>在获得明确授权后接入活体检测和参赛身份确认。</p></article>
+          <article class="feature"><strong>线下比赛门票</strong><h3>资格发放与核销</h3><p>将线上比赛成绩连接到线下赛事门票领取与现场核销。</p></article>
+          <article class="feature"><strong>运营后台</strong><h3>赛事与风控管理</h3><p>集中管理赛事、用户、排名、门票、内容、权限和审计记录。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="architecture">
+      <div class="shell">
+        <div class="section-head"><h2>Unity、C++ 与 Java 分层架构</h2><p>客户端表现、实时游戏逻辑和运营管理相互分离，便于独立演进和安全控制。</p></div>
+        <div class="architecture">
+          <article class="layer"><div class="stack">Unity3D</div><h3>跨平台客户端</h3><p>赛事大厅、报名、牌桌、排名、个人中心和门票状态。</p></article>
+          <article class="layer"><div class="stack">C++17</div><h3>权威游戏服务器</h3><p>发牌、行动校验、状态同步、赛事调度、淘汰和结算。</p></article>
+          <article class="layer"><div class="stack">Java 17</div><h3>运营管理后台</h3><p>赛事配置、身份审核、资格管理、门票核销和风控审计。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="section-head"><h2>赛事流程</h2><p>覆盖玩家从发现赛事到获得比赛结果或线下参赛资格的主要阶段。</p></div>
+        <div class="flow"><div>赛事发布</div><div>报名认证</div><div>开赛分桌</div><div>淘汰并桌</div><div>决赛结算</div><div>门票核销</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="screenshots">
+      <div class="shell">
+        <div class="section-head"><h2>PokerArena 产品截图</h2><p>展示现场赛事大厅、比赛报名、竞技牌桌和比赛资格卡兑换界面。</p></div>
+        <div class="gallery">
+          <figure class="shot"><div class="shot-media"><img src="Assets/Screenshots/dating.jpg" alt="PokerArena 德州扑克现场赛事大厅" width="720" height="1280" loading="lazy"></div><figcaption><strong>现场赛事大厅</strong>查看进行中的线下赛事、报名入口和比赛信息。</figcaption></figure>
+          <figure class="shot"><div class="shot-media"><img src="Assets/Screenshots/baoming.jpg" alt="PokerArena 德州扑克赛事报名列表" width="720" height="1280" loading="lazy"></div><figcaption><strong>赛事报名</strong>展示比赛奖励、参赛人数、报名时间和开赛时间。</figcaption></figure>
+          <figure class="shot"><div class="shot-media"><img src="Assets/Screenshots/bisai.jpg" alt="PokerArena 德州扑克竞技比赛牌桌" width="1280" height="2832" loading="lazy"></div><figcaption><strong>竞技比赛牌桌</strong>显示桌位、玩家状态和开赛倒计时。</figcaption></figure>
+          <figure class="shot"><div class="shot-media"><img src="Assets/Screenshots/duihuanka.jpg" alt="PokerArena 线下比赛资格卡兑换" width="720" height="1280" loading="lazy"></div><figcaption><strong>比赛资格卡</strong>使用线上积分兑换线下比赛资格。</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell"><div class="notice"><strong>安全与合规</strong><br>人脸图像和生物特征属于敏感个人信息。实际部署必须取得明确同意，实施数据最小化、加密、访问控制和删除机制，并遵守运营地区的网络游戏、竞技赛事与数据保护法规。</div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-row"><span>© PokerArena Competition Platform</span><span><a href="https://github.com/alibabamayun888/PokerArena-Competition-Platform">Source on GitHub</a></span></div></footer>
+</body>
+</html>
